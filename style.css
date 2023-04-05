@@ -1,0 +1,146 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(234, 235, 236);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Calculator {
+  height: 500px;
+  width: 300px;
+  background-color: #222520;
+  border-radius: 12px;
+  box-shadow: 4px 4px 20px black;
+}
+
+form input {
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  pointer-events: none;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 19px;
+}
+
+button {
+  height: 53px;
+  width: 55px;
+  border-radius: 7px;
+  margin: 5px 5px;
+  border: solid 1px black;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-yellow {
+  background-color: rgb(245, 146, 62);
+  color: white;
+}
+
+.btn-grey {
+  background-color: #d2cece;
+}
+
+.btn-equal {
+  background-color: green;
+}
+
+.btn-clear {
+  background-color: red;
+  font-size: 24px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 243, 243);
+}
+
+.Calculator {
+  height: 500px;
+  width: 300px;
+  background-color: #302a25;
+  border-radius: 10px;
+}
+
+form input {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: none;
+  color: white;
+  text-align: right;
+  font-size: 35px;
+  pointer-events: none;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+button {
+  padding: 20px 20px;
+  margin: 3px 3px;
+  height: 58px;
+  width: 58px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-yellow {
+  background-color: rgb(245, 146, 62);
+  color: white;
+}
+.btn-plus {
+  height: 120px;
+}
+
+.btn-equal {
+  background-color: rgb(156, 154, 154);
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 70px;
+  width: 129px;
+}
+
+.btn-clear {
+  background-color: rgb(156, 154, 154);
+  position: absolute;
+  margin-top: 260px;
+
+  /* font-size: 25px;
+  padding-bottom: 40px; */
+}
