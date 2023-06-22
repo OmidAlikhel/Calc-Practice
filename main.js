@@ -21,4 +21,10 @@
       screen.value = answer;
     }
   });
+
+  // third functionality clear screen.
+
+  clear.addEventListener("click", function (e) {
+    screen.value = "";
+  });
 })();
